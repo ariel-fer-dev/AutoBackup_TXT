@@ -102,6 +102,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="archivo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
